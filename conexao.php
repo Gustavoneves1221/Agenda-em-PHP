@@ -2,9 +2,9 @@
 
 $host = "localhost";
 $port = "5432";
-$dbname = "cadastro";
+$dbname = "bd";
 $user = "postgres";
-$password = "@Wyden1221";
+$password = "senha";
 
 try {
     $pdo = new PDO(
