@@ -31,6 +31,7 @@ $contatos = $resultado->fetchAll(PDO::FETCH_ASSOC);
 <body>
 
     <h1>Minha Agenda de Contatos</h1>
+    <h2 style="color: red;">ATENÇÃO: não use dados reais neste programa, ele foi feito para fins educacionais</h2>
 
     <a href="cadastrar.php">Cadastrar novo contato</a>
 
@@ -101,5 +102,6 @@ $contatos = $resultado->fetchAll(PDO::FETCH_ASSOC);
 
     <?php endif; ?>
 
+    <button id="btnCreditos">Créditos</button>
 </body>
 </html>
